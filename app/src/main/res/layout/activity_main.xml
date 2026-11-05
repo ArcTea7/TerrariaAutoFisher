@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="24dp"
+    android:background="#101713">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terraria Auto Fisher"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#EAF4EE" />
+
+    <Button
+        android:id="@+id/startFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Open controls"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/stopFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Close controls"
+        android:textAllCaps="false"
+        android:enabled="false" />
+
+    <Switch
+        android:id="@+id/developerModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Developer mode"
+        android:textColor="#EAF4EE"
+        android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

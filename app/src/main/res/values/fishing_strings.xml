@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fishing_service_name">Terraria Auto Fisher</string>
+    <string name="fishing_service_description">Displays floating fishing controls. Can send screen taps and inspect screen images to detect fishing bites. You choose the tap location and detection area.</string>
+</resources>

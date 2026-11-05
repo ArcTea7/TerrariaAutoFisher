@@ -1,0 +1,27 @@
+# Local IDE settings and generated files
+*.iml
+.idea/
+.gradle/
+.kotlin/
+build/
+local.properties
+.DS_Store
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Private signing files and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+.env
+.env.*
+
+# Release binaries belong in GitHub Releases
+*.apk
+*.aab
