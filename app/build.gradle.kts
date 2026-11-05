@@ -4,6 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.terrariaautofisher"
+
     compileSdk {
         version = release(37)
     }
@@ -21,11 +22,11 @@ android {
     buildTypes {
         release {
             optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
+                enable = false
             }
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
