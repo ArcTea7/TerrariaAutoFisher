@@ -6,6 +6,8 @@ An open-source Android app that automatically reels and recasts in Terraria. It 
 
 Download the APK from [Releases](https://github.com/ArcTea7/TerrariaAutoFisher/releases/latest) and install it on your phone. Alternatively, you can build the app yourself from the source code.
 
+Having trouble installing? See [Installation help](INSTALL.md).
+
 Requires Android 11 or newer.
 
 ## Setup
